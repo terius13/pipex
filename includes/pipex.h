@@ -6,13 +6,15 @@
 /*   By: ting <ting@student.42singapore.sg>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/11 11:52:53 by ting              #+#    #+#             */
-/*   Updated: 2024/05/11 11:56:33 by ting             ###   ########.fr       */
+/*   Updated: 2024/05/12 16:57:57 by ting             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PIPEX_H
 # define PIPEX_H
 
-
+# include <unistd.h>
+# include <stdio.h>
+# include <sys/wait.h>
 
 #endif
