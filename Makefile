@@ -6,7 +6,7 @@
 #    By: ting <ting@student.42singapore.sg>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/09 14:57:42 by ting              #+#    #+#              #
-#    Updated: 2024/05/12 16:35:27 by ting             ###   ########.fr        #
+#    Updated: 2024/05/15 16:15:25 by ting             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ LIBFT = libft/libft.a
 
 SRC_PATH = srcs/
 
-SRCS = pipex.c
+SRCS = pipex.c utils.c \
 
 OBJS = $(addprefix $(SRC_PATH), $(SRCS:.c=.o))
 
